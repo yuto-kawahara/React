@@ -1,12 +1,9 @@
-import { StrictMode } from "react";
-import ReactDOM from "react-dom";
+/**
+ * JSX記法
+ */
 
+import React from "react";
+import ReactDom from "react-dom";
 import App from "./App";
-
-const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-  rootElement
-);
+// コンポーネントを使用している場合は、拡張子をjsxにする
+ReactDom.render(<App />, document.getElementById("root"));
