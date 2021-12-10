@@ -10,7 +10,7 @@ import { User } from "./types/user";
 
 const user: User = {
   name: "しめじ",
-  // hobbies: ["映画", "漫画"],
+  hobbies: ["映画", "漫画"],
 }
 
 function App() {
